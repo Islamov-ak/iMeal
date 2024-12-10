@@ -12,3 +12,12 @@ import Foundation
 //    let name_meal: String
 //    
 //}
+
+struct Meal: Identifiable {
+    let id=UUID()
+    let name_meal:String
+    let image:String
+    let ingredients:String
+    let history:String
+//    var emptyDict = [String: Array<String>]()
+}
